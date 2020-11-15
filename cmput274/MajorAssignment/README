@@ -1,0 +1,21 @@
+#-------------------------
+# Name: Al Hisham Anik
+# ID: 1585385
+# CMPUT274, Fall 2019
+#
+# Major Assignment# 1
+#-------------------------
+
+Included Files in zip.util:
+- util.py: Contains program that compress and decompress files using Huffmancodes.  The compressor will be a command-line utility that encodes any file into a compressed version with a .huf extension.
+-README contains instructions for the user to run the program
+
+Modified Files:
+- util.py: Contains the five functions read_tree(), decode_byte(), write_tree(), compress(), and decompress() and also the modules pickle, bitio and huffman.
+_util.py: This program also contains some built-in function and some new functions have been included after importing modules for the huffman assignment.
+
+Running the Web server to check the decompress function:
+User should go to the wwwroot directory open a bash terminal and open the web server using "python3 ../webserver.py". User can then go to the url "http://localhost:8000" to view the webpage and image of Huffman that will appear.
+
+Running compressor:
+User will be able to run the compress.py script to compress files. For example, to add a new file somefile.pdf to be served by the web server,copy it to the wwwroot/directory, change to that directory, and run python3 ../compress.py some file.pdf. This will generate somefile.pdf.huf and user will be able to access the decompressed version at the URLhttp://localhost:8000/somefile.pdf. 

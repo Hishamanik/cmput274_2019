@@ -1,0 +1,17 @@
+#-----------------------------
+# Name: Al Hisham Anik
+# ID: 1585385
+# CMPUT274, Fall 2019
+#
+#Exercise 3: Word Frequency
+#-----------------------------
+
+Task 1:
+> User enters a command-line argument(containg the file name which the user wants to make a frequency table of) in the terminal and if my program reads the single filename from the terminal and returns a output file with the same name and an extension 'out' added.
+> The program runs perfectly and the outfile file contains exact same characters as found in the sample data file.
+> My frequency table is a actual table rather than a one line table found in the sample output data file in class. This makes easy visbile for the user.
+
+Task 2:
+> The user should make sure to give a single file name one at a time as muliple command line arguments will close the program.
+> This part also works perfectly and closes the python program immediately if the desired command line argument is not given.
+>if desired command line argument is not given then a statement is printed to help user to input the correct command-line 

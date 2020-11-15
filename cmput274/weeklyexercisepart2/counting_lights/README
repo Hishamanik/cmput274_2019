@@ -1,0 +1,23 @@
+#-----------------------------
+# Name: Al Hisham Anik
+# ID: 1585385
+# CMPUT274, Fall 2019
+#
+#Exercise 5: Counting Lights
+#-----------------------------
+
+Included files:
+ 	> Makefile
+	> counting.cpp
+	> README
+
+Accessories: 
+	> Arduino Elegoo Mega2560 Uno is used for this exercise
+
+Wiring Instructions: 
+	(I have already been given a specific guideline for me to wire the board so I guess the TA already has that kind of prepared board but I will still go through the wirinf process for good practice).
+Use pins 9,10,11,12,13 for the LEDs, such that pin 11 corresponds to the greenLED and the other pins are for RED lEDs and are match up with the corresponding number in a arranged manner for example bottom to top. >The “first LED” should be the one connected to pin 9. >Use pin 6 for the increment button. >Use pin 7 for the decrement button. >Use pin 5 for the store/recall button.
+
+Running Instructions:
+	The increment button connected to pin 6 is used to increase the sequence order by 1 if tapped once. When the decrement button is tapped once the previous state is seen. If you press the recall/store button it stores the current state of the LED sequence lighting and restores it whenever it is pressed again. 
+

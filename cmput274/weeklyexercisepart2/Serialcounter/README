@@ -1,0 +1,20 @@
+// Name: Al Hisham Anik
+// ID: 1585385
+// CMPUT274, Fall 2019
+//
+//Exercise 6: Serial Counter
+
+Included files:
+ 	> Makefile
+	> serial_counter.cpp
+	> README
+
+Accessories: 
+	> Arduino Elegoo Mega2560 Uno is used for this exercise
+
+Wiring Instructions: 
+	(I have already been given a specific guideline for me to wire the board so I guess the TA already has that kind of prepared board but I will still go through the wirinf process for good practice).
+Use pins 9,10,11,12,13 for the LEDs, >The “first LED” should be the one connected to pin 9 corresponding to bit position 0. Then connect the LEDs one vertically above the other with the increasing pin number.
+
+Running Instructions:
+	From the bash terminal use the make and make upload command to compile and upload the code into the arduino. Then use the command serial-mon to open up the serial monitor where you can type in any number to see its correspoinding binary digit is indicated by the LEDs position. When you press the space button or the enter button the variable total reset backs to 0 and you can see all the LEDs turned off. Every time  variable character is read from the serial monitor the total is going to be increased by the binary total of the number. Note: Pressing character outside the Hexadecimal will not come into effect.

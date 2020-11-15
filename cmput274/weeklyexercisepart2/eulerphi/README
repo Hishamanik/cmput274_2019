@@ -1,0 +1,20 @@
+// Name: Al Hisham Anik
+// ID: 1585385
+// CMPUT274, Fall 2019
+//
+//Exercise 7: Euler's Phi Function
+//Reference: Greatest common divisor code is used which is posted in eclass to compute gcd(n,k) 
+
+Included files:
+	> eulerphi.cpp
+	> README
+
+Running Instruction:
+
+	The user must compile to run the program in the bash terminal ouside testcenter using the following two commands: g++ eulerpi.cpp -o eulerphi and then ./ eulerphi
+	Now the user can enter a random number. If the number is less than 2^15 then the phi(n) is printed and its ratio with the number entered bu user.
+	If a number equals or greater than 2^15 is entered by the user then a  15 bit test is generated and the output is printed using an extra line containg fraction x/(2*10^14) rounded off to 5 digits after the decimal places where x is the number of k in the range (2*10^14)<= k <(2*10^15).The user can also see in the output line the number he has entered. If the number entered by user is itself a prime number then the phi(n) is returned as n-1.
+The third line of output is the ratio between phi(n) and n. 
+
+
+Note: I couldn't finish up with unsigned int phi(unsigned int n) function so my code doesnot compile due to synatx errors.
