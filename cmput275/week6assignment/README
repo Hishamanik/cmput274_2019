@@ -1,0 +1,26 @@
+// Name: Al Hisham Anik
+// ID: 1585385
+// CMPUT275, Winter 2020
+//
+//Reference: template code from eclass for student_hash.cpp file
+//Exercise 6: STL Concepts
+
+Included files:
+ 	> Makefile
+	> student_hash.cpp
+	> complex_postfix.cpp
+	> README
+
+Accessories: 
+	> Just your laptop or Pc. :)
+
+Wiring Instructions: 
+	> No wires needed as this is a C++ desktop assignment
+
+Running Instructions:
+	> From the terminal type in the name of the program for example "g++ student_hash.cpp" followed by "./a.out" to run student hash program. 
+"Task 1": This task is used read input and manipulate and query unorderedset. Each query will ask a question about the contents of theunorderedset(Are there any students in the set named “Joseph”?) or manipulate the set (delete the studentwith id = 1503333).Input of: •I name id gradeinsert a new Student Record into the set with the given values. •R id remove it from the set. •Q i id: Query for the given id. If an object with id exists, print it. There can be at mostone such object. •Q n name: Query for  and  print  all  objects with the  given name. There can be many such objects. •Q g grade: Query for and print all objects with the givengrade.  There can be many suchobjects. •S: Indicates the end of the query session. No input will follow this line. //My program gives a bunch or error and due to time constraint could't finish if off.
+
+"Task 2": This task is used to performa calculation of complex numbers in order pair. For example if the user type in "(2+3i) + (3+4i)" the output will be "(5+7i)". And "c(2-3i)" will cause the output to be the complex conjugate of the complex value which in this case is "(2+3i)". //My program is a postfix calculator only for real integersfor example to calculate the value of (5*7) + (7-3) you need to type in 5 7 * 7 3 + -. This counts the value in a postfix manner and didnot get any time to fix this either.
+
+

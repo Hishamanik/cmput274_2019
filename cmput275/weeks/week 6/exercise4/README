@@ -1,0 +1,24 @@
+// Name: Al Hisham Anik
+// ID: 1585385
+// CMPUT275, Winter 2020
+// Reference: Pseudocodes posted in eclass weekly assignment3 and Lecture slides containing code for Makefile
+//Also codes of exercise4.cpp, linkedlist.h and hashtable.h are used
+// Exercise 4: Dynamic Hashing
+
+Included files:
+ 	> Makefile
+	> exercise4.cpp
+	> linkedlist.h
+	> hashtable.h
+	> README
+
+Accessories: 
+	> Just your laptop or Pc. :)
+
+Wiring Instructions: 
+	> No wires needed as this is a C++ desktop assignment
+
+Running Instructions:
+	> From the terminal type in make to comiple and link files. The user can use "I" to enter only postive integer items inside buckets, "R" to remove items from a bucket, and "S" to get the size of the buckets. For example "I 15" and "I 27" will enter "15" and "27" into buckets and "S" will show that the bucket size is 2. Now if "R 27" is typed in then 27 is removed from the bucket and typing "S" will now show 1. User can also type in the command "Q" to see if a specific item is present in a bucket. For example typing in "Q 15" will return value "found" and typing "Q 31" in this case will return not found. to stop the program from running user need to type in "STOP" in the terminal.
+
+--------------------------------------------------------Thank You--------------------------------------------------------------------------------------

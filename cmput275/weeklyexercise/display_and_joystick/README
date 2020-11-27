@@ -1,0 +1,24 @@
+// Name: Al Hisham Anik
+// ID: 1585385
+// CMPUT275, Winter 2020
+//
+//Exercise 1: Display and Joystick
+
+Included files:
+ 	> Makefile
+	> joy_cursor.cpp
+	> README
+
+Accessories: 
+	> Arduino Elegoo Mega2560 Uno is used for this exercise
+
+Wiring Instructions: 
+
+	•Arduino analog pin A8 should connect to joystick VRy
+	•Arduino analog pin A9 should connect to joystick VRx
+	•Arduino digital pin 53 should connect to joystick pin SW
+
+Running Instructions:
+	At first in your directory you need to have the file lcd_image.h and lcd_image.cpp along with Makefile, joy_cursor.cpp. Now from the bash terminal use the make and make upload command to compile and upload the code into the arduino. You will see a patch of Edmonton along with a black 60 pixel light up in the tft display. Now use the joystick to move the red cursor along the map. As you move along the map you will find that the old cursor position has been replaced by the same patch of map which. The red cursor stops when you move to the black pixel boundary or the edge of the map. The red cursor also moves with a speed depending on how far you move your joystick. The red cursor flickers when you move it because the old patch of map is regain so there is a small delay.
+
+--------------------------------------------------------Thank You--------------------------------------------------------------------------------------

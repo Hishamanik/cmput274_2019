@@ -1,0 +1,22 @@
+// Name: Al Hisham Anik
+// ID: 1585385
+// CMPUT275, Winter 2020
+//
+//Exercise 2: Restaurants and Pointers
+
+Included files:
+ 	> Makefile
+	> get_restaurant.cpp
+	> README
+
+Accessories: 
+	> Arduino Elegoo Mega2560 Uno is used for this exercise
+
+Wiring Instructions: 
+	> There is no wiring in this assignment, just connect your tft display to the Aurduindo board.
+
+Running Instructions:
+	At first from your terminal compile the code and upload it to your Arduino using "make" and "make upload" command. Now you will see the Screen lighted up with two options in the right "Slow" and "Fast" and in the left you can see text where you can find the time taken for calling the names of all Edmonton resturants. Don't worry about them now, lets type in "serial-mon" in your terminal. Now you are free to use the user interface. You can press the button "Slow" in the right corner to activate Slow technique which calls the names of all the resturants names which you can see in the serial-monitor now and at the end it prints out the time it has taken under the sentence "Recent Slow Run", if you press the "Slow button" again, it will go over the names again in a slow manner and computes the sum and the average from the runs took place and displays the "average" under "Slow Run Avg:". By the same method if you press the "Fast" button on the left side of the screen it will call all of the names of the sresturants stored in the SD card in a "fast" manner and computer the average which is more meaningful from the second run onwards. You may also note that the average run reading and recent run reading doesnot change as you call each function because each run has the same time taken and as it gets added up the average remains same.
+
+
+--------------------------------------------------------Thank You--------------------------------------------------------------------------------------

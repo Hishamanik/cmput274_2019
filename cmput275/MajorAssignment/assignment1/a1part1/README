@@ -1,0 +1,45 @@
+Name: Nibras Alam and Al Hisham Anik
+ID #: 1617818 and 1585385
+CMPUT 275, Winter 2019
+
+Assignment 1: Restaurant Finder Part 1
+***Consulted C++, Arduino, Adafruit GFX Documentation***
+***Use of Lecture Code specified in function headers***
+
+Included Files:
+	-a1part1.cpp
+	-lcd_image.cpp
+	-lcd_image.h
+	-Makefile
+	-README
+
+Running Instructions:
+	1. Connect the Arduino Mega 2560 (with Display and Joystick Wired) through an A-B style USB cable to the computer
+	2. Ensure the Arduino is using the proper port: /dev/ttyACM0 or - ACM1 ("arduino-port-select" in CML, hit "1" twice)
+	3. Within the program directory including the Makefile, open a terminal window and enter "make && make upload"
+	4. Ensure "avrdude done. Thank you." is visible
+	5. Program Functions:
+		Mode 0: Use Arduino joystick to navigate the YEG Map (which will shift when hitting border). Tap the map area of screen to view all restaurants within current map patch. Click joystick to switch to Mode 1.
+		
+		Mode 1: When Mode 1 has been selected, the closest 21 restaurants will be listed based on Manhattan Distance from cursor. Scroll through the list and click joystick to switch back to Mode 0 with cursor centered over selected restaurant (or as centered as possible near the edges).
+
+Accesories:
+	-Arduino MEGA 2560
+	-TFT Display
+	-1 Joystick
+	-5 Breakout Wires (Male to Female)
+
+Wiring Instructions:
+	-Arduino GND <M---F> Joystick Pin GND
+	-Arduino 5V <M---F> Joystick Pin 5V
+	-Arduino Pin A8 <M---F> Joystick Pin VRy
+	-Arduino Pin A9 <M---F> Joystick Pin VRx
+	-Arduino Pin 53 <M---F> Joystick Pin SW
+	***Attach TFT Display (by lining up the matching pins) AFTER connecting wires***
+
+Notes and Assumptions:
+	-Follows all assumptions from the assignment
+	-Modified xCursor and yCursor to be the top left corner of cursor rather than middle for personal ease in determining logic of code. mapX and mapY follow similar logic. 
+
+Other Information:
+	-Passes style checker

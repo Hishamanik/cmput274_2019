@@ -1,0 +1,27 @@
+// Name: Al Hisham Anik
+// ID: 1585385
+// CMPUT275, Winter 2020
+//
+//Reference: template code from eclass and breadthfirst search algoirtm
+//Exercise 5: Graph Concepts
+
+Included files:
+ 	> Makefile
+	> graph_concepts.cpp
+	> digraph.h
+	> diraph.cpp
+	> README
+
+Accessories: 
+	> Just your laptop or Pc. :)
+
+Wiring Instructions: 
+	> No wires needed as this is a C++ desktop assignment
+
+Running Instructions:
+	> From the terminal type in "make" to comiple and link files. 
+"Task 1": Then to run the graph_concepts program type in "./graph_concepts". This will run a program where it prints the number of connected components in a graph and then prints the number of connected components in the new graph
+
+"Task 2": In the user input type in the CSV file you want to open using "./graph_concepts filename". After that the file name passed from the command line is read and the vertex and edges inside the files are extracted to create a undirected graph. 
+
+"Task 3": Type in "./graph_concepts edmonton-roads-2.0.1.txt". Then the program implements the behaviour of Task 2 to parse through this CSV file to extract the Vertices and Egdes information to make a graph. Then using Part 1 it counts the number of connected components inside the graph. 

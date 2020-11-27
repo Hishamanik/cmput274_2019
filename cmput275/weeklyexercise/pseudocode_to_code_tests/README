@@ -1,0 +1,25 @@
+// Name: Al Hisham Anik
+// ID: 1585385
+// CMPUT275, Winter 2020
+// Reference: Pseudocodes posted in eclass weekly assignment3 and Lecture slides containing code for Makefile
+// Exercise 3: Pseudocode to code
+
+Included files:
+ 	> Makefile
+	> flipflop.cpp
+	> textmatch.cpp
+	> README
+
+Accessories: 
+	> Just your laptop or Pc. :)
+
+Wiring Instructions: 
+	> No wires needed as this is a C++ desktop assignment
+
+Running Instructions for flipflop.cpp :
+	For running flipflop.cpp type in "g++ flipflop.cpp" in your terminal following by "./a.out". Now in the first line enter the number of elements(ranging 0 to 200) you want to enter in an array and then enter random sequence of elements you want to be in that array. Your entering of number seperated by space can be in an ordered format or random format. After entering the elements you will see the ordered of elements you entered got sorted out in an ascending to descending format in the resulted output. For example if you enter the number 6 at the first line this will create an array to contain 6 number of elements, then in the next line you can enter exact six random elements e.g "2 0 18 2 9 2" and in the ouput result you will get the sorted array of "0 2 2 2 9 18".
+	
+Running Instructions for flipflop.cpp :
+	For running flipflop.cpp type in "g++ flipflop.cpp" in your terminal following by "./a.out". In the first line of input enter a string of characters which is the substring you want to find index of. In the second line of input enter the string from which the subsrings are matched and the index of the strings are returned in the output to show where in the string does the substring lies on. For example if you want to find "an" as a substring from the string "bananaban" you will get an output of 1 3 7 . This is beacuse the substring lies in the position 1,3,7 in the string array.
+
+--------------------------------------------------------Thank You--------------------------------------------------------------------------------------

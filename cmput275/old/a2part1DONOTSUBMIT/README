@@ -1,0 +1,34 @@
+Name: Nibras Alam and Al Hisham Anik
+ID #: 1617818 and 1585385
+CMPUT 275, Winter 2019
+
+Assignment 2: Driving Route Finder Part 1
+***Consulted C++, Arduino, Adafruit GFX Documentation***
+***Use of Lecture Code specified in function headers***
+
+Included Files:
+	-server.cpp (created)
+	-dijkstra.cpp (created)
+	-dijkstra.h
+	-heap.h
+	-digraph.cpp
+	-digraph.h
+	-wdigraph.h
+	-Makefile
+	-README
+
+Running Instructions:
+	1. Open the terminal and enter "make" to create executable "server"
+	2. Run using "./server filename" where filename (in the same compiling directory) contains Vertices and Edges of the directed graph on each line in the following format:
+		V,ID,Lat,Lon
+		E,startV,endV,Name
+	3. View waypoints of the shortest path between 2 coordinates using:
+		"R Lat1 Lon1 Lat2 Lon2" and hitting enter
+	4. Next the server will display "N #" indicating the number of waypoints; enter "A" + enter key to acknowledge. Then the server will send each waypoint one by one waiting for "A" + enter key between each sent "W lat lon", terminating the program after displating "E".
+
+Makefile Targets:
+	- make: Builds objects and executable for the program "server"
+	- make clean: Remove all object files and executables
+
+Notes and Assumptions:
+	-Follows all assumptions from the assignment
